@@ -20,7 +20,7 @@ Outline:
 
 ## Repository structure:
 
-#### 'API-data-collection.ipynb'
+#### '[API-data-collection.ipynb](API-data-collection.ipynb)'
 - This notebook extracts data regarding Falcon 9 launches from REST API's provided. 
 - 'dataset_part_1.csv' CSV file is produced as the outcome.
 
