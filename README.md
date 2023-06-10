@@ -23,26 +23,26 @@ Outline:
 
 #### [API-data-collection.ipynb](API-data-%20collection.ipynb)
 - This notebook extracts data regarding Falcon 9 launches from REST API's provided. 
-- 'dataset_part_1.csv' CSV file is produced as the outcome.
+- [dataset_part_1.csv](dataset_part_1.csv) CSV file is produced as the outcome.
 
 
 #### [webscraping.ipynb](webscraping.ipynb)
 - This notebook is used for scraping data regarding Falcon 9 launches from Wikipedia. 
-- 'spacex_web_scraped.csv' CSV file is produced as the outcome.
+- [spacex_web_scraped.csv](spacex_web_scraped.csv) CSV file is produced as the outcome.
 
 
 #### [EDA(Base).ipynb](EDA(base).ipynb)
 - We perform basic data exploration and data cleaning in this notebook.
-- 'dataset_part_2.csv' CSV file is produced as the outcome.
+- [dataset_part_2.csv](dataset_part_2.csv) CSV file is produced as the outcome.
 
 #### [EDA(SQL).ipynb](EDA(SQL).ipynb)
 - We further explore data and insights through SQL.
 - 'my_date1.db' (Engine for enabling the execution of SQL queries on the dataset).
-- 'Spacex.csv' file is used.
+- [Spacex.csv](Spacex.csv) file is used.
 
 #### [EDA(DV).ipynb](EDA(DV).ipynb)
 - We explore insights through data visualisation using Matplotlib and Seaborn.
-- 'dataset_part_3.csv' is produced as the outcome.
+- [dataset_part_3.csv](dataset_part_3.csv) is produced as the outcome.
 
 #### [folium-maps.ipynb](folium-maps.ipynb)
 - Launch Sites Locations Analysis with Folium.
