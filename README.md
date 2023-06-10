@@ -2,14 +2,13 @@
 
 - Data collection from REST API's and Wikipedia (web-scraping)
 - Exploratory data analysis performed utilizing fundamental python libraries for Data exploration, Data manipulation, Data cleaning and visualisation
-
 - Folium is used to create illustrative maps for further insights
 - Plotly Dash visualisation tools used to construct a comprehensive Dashboard 
 - Predictive Machine learning model development (With Hyperparameter tuning and Cross validation)
 
 ## Project report 
 
-Refer [final_project.pptx](final_project.pptx) document
+Refer [final_project.pdf](final_project.pdf) document
 
 Outline:
 - Executive Summary
