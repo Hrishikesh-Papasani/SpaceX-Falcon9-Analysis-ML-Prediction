@@ -1,4 +1,4 @@
-# SpaceX-Falcon-Analysis-ML-Predictions
+# Falcon 9 Analytics: Exploring SpaceX's Journey
 
 - Data collection from REST API's and Wikipedia (web-scraping)
 - Exploratory data analysis performed utilizing fundamental python libraries for Data exploration, Data manipulation, Data cleaning and visualisation
