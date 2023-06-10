@@ -59,6 +59,8 @@ Outline:
 
 
 
-Note: This project was developed as part of the IBM's Applied Data Science Capstone. However, different changes/improvements have been made to further optimise the project.
+Note: Outputs may not directly be shown in the Folium and Plotly Dash files. Refer their respective picture documents for references.
+
+This project was developed as part of the IBM's Applied Data Science Capstone. However, different changes/improvements have been made to further optimise the project.
 
 
