@@ -42,6 +42,7 @@ Outline:
 
 #### [EDA(DV).ipynb](EDA(DV).ipynb)
 - We explore insights through data visualisation using Matplotlib and Seaborn.
+- Feature engineering is performed on the dataset.
 - [dataset_part_3.csv](dataset_part_3.csv) is produced as the outcome.
 
 #### [folium-maps.ipynb](folium-maps.ipynb)
@@ -54,7 +55,7 @@ Outline:
 
 
 #### [ML-model-building.ipynb](ML-model-building.ipynb)
-- Machine learning model building (4 classification models)
+- Machine learning model building (4 major classification models)
 - Data scaling, feature engineering, model building, hyperparameter tuning, evaluation
 
 
@@ -62,5 +63,7 @@ Outline:
 Note: Outputs may not directly be shown in the Folium and Plotly Dash files. Refer their respective picture documents for references.
 
 This project was developed as part of the IBM's Applied Data Science Capstone. However, different changes/improvements have been made to further optimise the project.
+
+
 
 
