@@ -20,7 +20,7 @@ Outline:
 
 ## Repository structure:
 
-#### [API-data-collection.ipynb](API-data-collection.ipynb)
+#### [API-data-collection.ipynb](API-data-%20collection.ipynb)
 - This notebook extracts data regarding Falcon 9 launches from REST API's provided. 
 - 'dataset_part_1.csv' CSV file is produced as the outcome.
 
@@ -30,7 +30,7 @@ Outline:
 - 'spacex_web_scraped.csv' CSV file is produced as the outcome.
 
 
-#### [EDA(Base).ipynb](EDA(Base).ipynb)
+#### [EDA(Base).ipynb](EDA(base).ipynb)
 - We perform basic data exploration and data cleaning in this notebook.
 - 'dataset_part_2.csv' CSV file is produced as the outcome.
 
@@ -45,11 +45,11 @@ Outline:
 
 #### [folium-maps.ipynb](folium-maps.ipynb)
 - Launch Sites Locations Analysis with Folium.
-- Refer Folium Maps folder for screenshots (If not directly shown in the notebook).
+- Refer [Folium Maps](Folium%20Maps%20(pictures)) folder for screenshots (If not directly shown in the notebook).
 
 #### [dashboard.py](dashboard.py)
 - Dashboard creation with Plotly Dash.
-- Refer [Dashboard (pictures)](Dashboard (pictures)) for screenshots.
+- Refer [Dashboard (pictures)](Dashboard%20(pictures)) for screenshots.
 
 
 #### [ML-model-building.ipynb](ML-model-building.ipynb)
