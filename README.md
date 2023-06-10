@@ -7,7 +7,7 @@
 - Plotly Dash visualisation tools used to construct a comprehensive Dashboard 
 - Predictive Machine learning model development (With Hyperparameter tuning and Cross validation)
 
-## Project report (refer 'final_project.pptx' document)
+## Project report (refer [final_project.pptx](final_project.pptx) document)
 
 Outline:
 - Executive Summary
