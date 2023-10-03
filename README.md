@@ -70,5 +70,11 @@ Note: Outputs may not directly be shown in the Folium and Plotly Dash files. Ref
 This project was developed as part of the IBM's Applied Data Science Capstone. However, different changes/improvements have been made to further optimise the project.
 
 
+## Author
+Made by **Hrishikesh Reddy Papasani**
+Connect on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/hrishikesh-reddy-papasani-02110725a/)
+<br>
+Contact at hrpapasani@gmail.com
+
 
 
