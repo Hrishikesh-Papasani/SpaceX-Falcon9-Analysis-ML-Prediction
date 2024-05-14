@@ -1,80 +1,63 @@
 # Falcon 9 Analytics: Exploring SpaceX's Journey
 
-- Data collection from REST API's and Wikipedia (web-scraping)
-- Exploratory data analysis performed utilizing fundamental python libraries for Data exploration, Data manipulation, Data cleaning and visualisation
-- Folium is used to create illustrative maps for further insights
-- Plotly Dash visualisation tools used to construct a comprehensive Dashboard 
-- Predictive Machine learning model development (With Hyperparameter tuning and Cross validation)
+Welcome to Falcon 9 Analytics, a comprehensive data science project designed to delve into the robust history and technological advances of SpaceX's Falcon 9 rocket launches. Utilizing a mix of modern data collection techniques and cutting-edge analytical tools, this project offers a detailed exploration of SpaceX's operational successes and areas of potential enhancement.
+
+
 
 <p align="center">
   <img width="600" alt="image" src="https://github.com/Hrishikesh-Papasani/SpaceX-Falcon9-Analysis-ML-Prediction/assets/128984594/6ae79a95-5ac3-463d-8712-dc24ca9d506c">
 </p>
 
 
-## Project report 
+## Project Overview
+In this project, we:
+- **Collect Data**: Harness REST APIs and implement web scraping on Wikipedia to gather detailed information about Falcon 9 launches.
+- **Perform Exploratory Data Analysis (EDA)**: Use core Python libraries to explore, manipulate, clean, and visualize the data, gaining preliminary insights and preparing the dataset for deeper analysis.
+- **Map Visualization**: Employ Folium to create illustrative maps that provide geographical insights into launch sites and trajectories.
+- **Interactive Dashboard**: Develop an interactive dashboard using Plotly Dash, enabling users to visually interact with the data and uncover hidden patterns.
+- **Predictive Modeling**: Construct predictive machine learning models to forecast landing outcomes. This involves rigorous feature engineering, hyperparameter tuning, and cross-validation to ensure model accuracy and reliability.
 
-Refer [final_project.pdf](final_project.pdf) document
+This project offers a holistic analysis of SpaceX's Falcon 9 rocket launches, covering data collection, exploratory analysis, map visualization, an interactive dashboard, and predictive modeling.
 
-Outline:
-- Executive Summary
-- Introduction
-- Methodology
-- Results
-- Conclusion
-- Appendix
+## Data Sources
+- **SpaceX REST API**: We utilize the official SpaceX API to fetch real-time data about rocket launches.
+- **Wikipedia**: Data concerning historical launches is scraped from the List of Falcon 9 and Falcon Heavy launches using BeautifulSoup4.
 
-
-## Repository structure:
-
-#### [API-data-collection.ipynb](API-data-%20collection.ipynb)
-- This notebook extracts data regarding Falcon 9 launches from REST API's. 
-- [dataset_part_1.csv](dataset_part_1.csv) CSV file is produced as the outcome.
-
-
-#### [webscraping.ipynb](webscraping.ipynb)
-- This notebook is used for scraping data of Falcon 9 launches from Wikipedia. 
-- [spacex_web_scraped.csv](spacex_web_scraped.csv) CSV file is produced as the outcome.
-
-
-#### [EDA(Base).ipynb](EDA(base).ipynb)
-- We perform base data exploration and data cleaning in this notebook.
-- [dataset_part_2.csv](dataset_part_2.csv) CSV file is produced as the outcome.
-
-#### [EDA(SQL).ipynb](EDA(SQL).ipynb)
-- We further explore data and insights through SQL.
-- 'my_date1.db' (Engine for enabling the execution of SQL queries on the dataset).
-- [Spacex.csv](Spacex.csv) file is used.
-
-#### [EDA(DV).ipynb](EDA(DV).ipynb)
-- We explore insights through data visualisation using Matplotlib and Seaborn.
-- Feature engineering is performed.
-- [dataset_part_3.csv](dataset_part_3.csv) as the outcome.
-
-#### [folium-maps.ipynb](folium-maps.ipynb)
-- Launch Sites Locations Analysis with Folium.
-- Refer [Folium Maps](Folium%20Maps%20(pictures)) folder for screenshots (If not directly shown in the notebook).
-
-#### [dashboard.py](dashboard.py)
-- Dashboard creation using Plotly Dash.
-- Refer [Dashboard (pictures)](Dashboard%20(pictures)) for screenshots.
-
-
-#### [ML-model-building.ipynb](ML-model-building.ipynb)
-- Machine learning model building (4 major classification models)
-- Data scaling, feature engineering, model building, hyperparameter tuning, model evaluation.
+## Technologies Used
+- **Python**: The core programming language used for data collection, manipulation, and analysis.
+- **Pandas & NumPy**: For data manipulation and numerical operations.
+- **Matplotlib & Seaborn**: Used for creating static plots and visualizations.
+- **Folium**: For generating interactive maps to visualize geographical data.
+- **Plotly Dash**: For building the interactive web-based dashboard that displays analysis results.
+- **Scikit-Learn**: For building and tuning machine learning models.
 
 
 
-Note: Outputs may not directly be shown in the Folium and Plotly Dash files. Refer their respective picture folders for reference.
 
-This project was developed as part of the IBM's Applied Data Science Capstone. However, different changes/improvements have been made to further optimise the project.
+## Installation & Usage
+Clone the repository and navigate to the project directory:
+```bash
+git clone https://github.com/Hrishikesh-Papasani/SpaceX-Falcon9-Analysis-ML-Prediction.git
+cd SpaceX-Falcon9-Analysis-ML-Prediction
+```
+You 
+Run the dashboard with:
+```bash
+python app.py
+```
+
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
 
 
 ## Author
-Made by **Hrishikesh Reddy Papasani**
+
+**Hrishikesh Reddy Papasani** 
+<br>
 Connect on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/hrishikesh-reddy-papasani-02110725a/)
 <br>
-Contact at hrpapasani@gmail.com
+Contact: hrpapasani@gmail.com
 
 
 
