@@ -29,6 +29,8 @@ This project offers a holistic analysis of SpaceX's Falcon 9 rocket launches, co
 - **Matplotlib & Seaborn**: Used for creating static plots and visualizations.
 - **Folium**: For generating interactive maps to visualize geographical data.
 - **Plotly Dash**: For building the interactive web-based dashboard that displays analysis results.
+- **Requests**: Employed to fetch web pages from the internet.
+- **BeautifulSoup**: Utilized for web scraping data from Wikipedia.
 - **Scikit-Learn**: For building and tuning machine learning models.
 
 
